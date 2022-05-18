@@ -3,8 +3,12 @@
   padding: 0%;
   box-sizing: border-box;
 }
+body {
+  background-color: #1a1a1a;
+  margin: auto;
+}
 header {
-  background-color: black;
+  background-color: #000;
 }
 h1 {
   color: white;
@@ -14,7 +18,7 @@ main {
 }
 main,
 main header {
-  background-color: grey;
+  background-color: #4b4b4b;
 }
 nav ul {
   display: flex;
@@ -53,13 +57,18 @@ section {
 img {
   width: 100%;
   min-height: 80px;
-  background-color: black;
+  background-color: #000;
 }
 article {
   flex-basis: 140px;
   display: flex;
   flex-direction: column;
+  margin: 4px;
 }
 p {
-  background-color: rgb(39, 39, 37);
+  display: block;
+  background-color: #1a1a1a;
+  text-align: center;
+  height: 22%;
+  overflow: hidden;
 }
