@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+main {
+  line-height: 2rem;
+}
+main,
+main header {
+  background-color: grey;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+nav ul li {
+  color: white;
+}
+ul li {
+  list-style-type: none;
+}
+
+main div {
+  display: flex;
+}
+aside {
+  background-color: white;
+  padding: 1rem;
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+section {
+  color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  align-content: space-around;
+}
+img {
+  width: 100%;
+  min-height: 80px;
+  background-color: black;
+}
+article {
+  flex-basis: 140px;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  background-color: rgb(39, 39, 37);
+}
